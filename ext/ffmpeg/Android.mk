@@ -29,9 +29,9 @@ LOCAL_SHARED_LIBRARIES := \
 LOCAL_MODULE:= libgstffmpeg
 
 LOCAL_C_INCLUDES := 			\
-	$(GST_FFMPEG_TOP)/android	\
+	$(GST_FFMPEG_TOP)/android/arch/$(TARGET_ARCH)	\
 	external/gstreamer	   	\
-	external/gstreamer/android	\
+	external/gstreamer/android/arch/$(TARGET_ARCH)	\
 	external/gstreamer/libs 	\
 	external/gstreamer/gst		\
 	external/gstreamer/gst/android	\
